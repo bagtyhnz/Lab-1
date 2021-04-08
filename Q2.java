@@ -15,11 +15,11 @@ public class Q2 {
 	private static void love6(int i, int j) {
 
 	
-		if (i==6||j==6) {
-			System.out.println(true);
-		}
-		else if ((i+j)==6||(i-j)==6) {
-			System.out.println(true);
+		
+		if (i==6||j==6||(i+j)==6||(i-j)==6) {
+		 
+		System.out.println(true);
+		
 		}
 		else {
 			System.out.println(false);
